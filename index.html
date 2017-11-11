@@ -7,51 +7,79 @@
 
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
-    <style>
-    .heading {
-      font-size: 44px;
-      ;
-    }
+  <style>
+  .heading {
+    font-size: 44px;
+    ;
+  }
 
-    .main {
-      background:
-        url('https://ak2.picdn.net/shutterstock/videos/9575732/thumb/1.jpg');
-      height: 100vh;
-      background-size:cover;
-    }
+  .main {
+    background:
+      url('https://ak2.picdn.net/shutterstock/videos/9575732/thumb/1.jpg');
+    height: 100vh;
+    background-size:cover;
+  }
 
-    .centered {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      flex-direction: column;
-    }
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
 
-    .about {
-      background: #e8c5e5;
-      height: 100vh;
-    }
+  .about {
+    background: #e8c5e5;
+    height: 100vh;
+  }
 
-    .strong-sides {
-      height: 50vh;
-      padding: 45px;
-    }
+  .strong-sides {
+    height: 100vh;
+    padding: 45px;
+  }
 
-    .glyphicon {
-      font-size: 50px;
+  .glyphicon {
+    font-size: 50px;
 
-    }
+  }
 
-    .pics {
-      height: 70vh;
-    }
-    </style>
+  .pics {
+    height: 100vh;
+  }
+
+  .contacts {
+    height: 100vh;
+    background: #c0d6f9;
+
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 1000;
+  }
+
+
+  </style>
+
 
 </head>
 
 <body>
-  <div class="centered main" id="main">
+
+
+
+
+
+<div class="centered main" id="main">
+  <ul class="nav nav-pills menu">
+  <li><a href="#">Home</a></li>
+  <li><a href="#about">About me</a></li>
+  <li><a href="#strong-sides">My strong sides</a></li>
+  <li><a href="#pics">Pics</a></li>
+  <li><a href="#contacts">Contacts</a></li>
+</ul>
     <h1 class="heading">
       Well, hello darling!
     </h1>
@@ -138,8 +166,11 @@
 
 
 
-<div class="contacts" id="contacts">
-
+<div class="contacts centered" id="contacts">
+  <h3>
+    Find me here
+  </h3>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d167998.10803373056!2d2.2069770643680573!3d48.85877410312378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x40b82c3688c9460!2sParis%2C+France!5e0!3m2!1sen!2slv!4v1510406261026" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
